@@ -383,15 +383,15 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 //
 //
 //        }
-//        if(item.getItemId()==R.id.profile_frag){
-//            mDrawerLayout.closeDrawers();
-//            scroll.setVisibility(View.INVISIBLE);
-//            FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
-//            fr.replace(R.id.frag_cont,new UserProfile());
-//
-//            fr.commit();
-//
-//        }
+       if(item.getItemId()==R.id.profile_frag){
+           mDrawerLayout.closeDrawers();
+           scroll.setVisibility(View.INVISIBLE);
+           FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
+           fr.replace(R.id.frag_cont,new UserProfile());
+
+           fr.commit();
+
+       }
 //
 //
 //
