@@ -10,15 +10,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.cattlecare.R;
+
 import java.util.List;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
 
 
     Context mContext;
-    List<Complaint> mData;
+    List<com.example.finalsih.Complaint> mData;
 
-    public RecyclerViewAdapter(Context mContext, List<Complaint> mData) {
+    public RecyclerViewAdapter(Context mContext, List<com.example.finalsih.Complaint> mData) {
         this.mContext = mContext;
         this.mData = mData;
     }
