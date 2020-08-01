@@ -1,4 +1,4 @@
-package com.example.finalsih;
+package com.example.cattlecare;
 
 import android.graphics.Bitmap;
 
