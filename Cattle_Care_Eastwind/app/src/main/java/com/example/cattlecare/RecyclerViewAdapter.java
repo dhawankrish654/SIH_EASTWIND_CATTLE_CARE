@@ -1,4 +1,4 @@
-package com.example.finalsih;
+package com.example.cattlecare;
 
 import android.content.Context;
 import android.view.LayoutInflater;
