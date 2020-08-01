@@ -429,17 +429,17 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 //            startActivity(nm);
 //
 //        }
-//        if(item.getItemId() == R.id.stat_frag){
-//            mDrawerLayout.closeDrawers();
-//            progressDialog.show();
-//
-//            FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
-//            fr.replace(R.id.frag_cont,new status_frag());
-//            fr.commit();
-//            progressDialog.hide();
-//            scroll.setVisibility(View.INVISIBLE);
-//
-//        }
+       if(item.getItemId() == R.id.stat_frag){
+           mDrawerLayout.closeDrawers();
+           progressDialog.show();
+
+           FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
+           fr.replace(R.id.frag_cont,new status_frag());
+           fr.commit();
+           progressDialog.hide();
+           scroll.setVisibility(View.INVISIBLE);
+
+       }
 //        if(item.getItemId() == R.id.pick_frag){
 //            mDrawerLayout.closeDrawers();
 //            Intent nn=new Intent(custmapActivity.this,PickuppointActivity.class);
