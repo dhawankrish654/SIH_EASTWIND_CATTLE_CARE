@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23940419175",
+    "firebase_url": "https://cattle-care-cfbb7.firebaseio.com",
+    "project_id": "cattle-care-cfbb7",
+    "storage_bucket": "cattle-care-cfbb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23940419175:android:734642c9087bbd32b94ec2",
+        "android_client_info": {
+          "package_name": "com.example.cattlecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23940419175-ba1770jibn1bc7fsrd0aamk8tl60c7ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cattlecare",
+            "certificate_hash": "fcdc335ba2d9f81d34cf5449e41af303a1d49c19"
+          }
+        },
+        {
+          "client_id": "23940419175-ehfvbsoepj8gq2c74uiqm7s2eqo4bdi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYmZIKWmBESzLsAQoNW8u9d6DdYcRq9-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23940419175-ehfvbsoepj8gq2c74uiqm7s2eqo4bdi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

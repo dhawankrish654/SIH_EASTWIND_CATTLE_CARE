@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cattle Care</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="adopt">Find your animal companion here!\n Help our initiative to give the stray animals the life they deserve by adopting one today. \n \n
+Contact these NGOs for further information! </string>
+
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="donation">Thank you for being a part of our initiative! \n The stray, abandoned, injured, orphaned, and sick cattle do not belong to the roads. They deserve to be nurtured in a safe environment. \n With your help, we just saved some of them.\n \n You can gift them the life they deserve! All they need is to be well loved and cared for. Send your token of love!</string>
+    <string name="q">Ques.</string>
+    <string name="a">Ans.</string>
+    <string name="q1">How to Lodge a Request?</string>
+    <string name="q2">How to Lodge a Request?</string>
+    <string name="q3">How to Lodge a Request?</string>
+    <string name="a1">How to Lodge a Request?zsjgkwufzwiuefhilwuefhskdjhfzkjshgzkdjfhgzuryiluryltiuzrylztuidyrlzuidyrtliduyrtliudrytiudrtyirlytieurytsiuertyseiutysiuetyiselyt</string>
+    <string name="a2">How to Lodge a Request?zsjgkwufzwiuefhilwuefhskdjhfzkjshgzkdjfhgzuryiluryltiuzrylztuidyrlzuidyrtliduyrtliudrytiudrtyirlytieurytsiuertyseiutysiuetyiselyt</string>
+    <string name="a3">How to Lodge a Request?zsjgkwufzwiuefhilwuefhskdjhfzkjshgzkdjfhgzuryiluryltiuzrylztuidyrlzuidyrtliduyrtliudrytiudrtyirlytieurytsiuertyseiutysiuetyiselyt</string>
+    <string name="access_token">pk.eyJ1IjoiYW5zaHNoYW5rZXIiLCJhIjoiY2tjcndidjNoMWl1dDJ5bHVxZXpicG9vaiJ9.9mrj_ppUai5yMCKK86NQBA</string>
+    <string name="channel_description">yay</string>
+    <string name="channel_name">yayyyyyy</string>
+
+</resources>
