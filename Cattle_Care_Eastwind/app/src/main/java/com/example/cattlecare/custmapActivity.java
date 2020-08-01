@@ -1,7 +1,6 @@
 package com.example.cattlecare;
 
 
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
@@ -51,6 +50,8 @@ import android.widget.Toast;
 import com.example.cattlecare.MainActivity;
 import com.example.cattlecare.MySupportMapFragment;
 import com.example.cattlecare.R;
+import com.example.cattlecare.fundFrag;
+import com.example.cattlecare.locservice;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
@@ -107,8 +108,17 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
             uulocation = locationManager
                     .getLastKnownLocation(LocationManager.GPS_PROVIDER);
             if (uulocation == null)
-                uulocation = locationManager
-                        .getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return;
+                }uulocation = locationManager
+                    .getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
             if (uulocation != null) {
                 lat = uulocation.getLatitude();
                 lang = uulocation.getLongitude();
@@ -355,15 +365,15 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 
 
 
-//        if(item.getItemId() == R.id.fund_frag){
-//            mDrawerLayout.closeDrawers();
-//            scroll.setVisibility(View.INVISIBLE);
-//            FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
-//            fr.replace(R.id.frag_cont,new fundFrag());
-//            fr.commit();
-//
-//
-//        }
+        if(item.getItemId() == R.id.fund_frag){
+            mDrawerLayout.closeDrawers();
+            scroll.setVisibility(View.INVISIBLE);
+            FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
+            fr.replace(R.id.frag_cont,new fundFrag());
+            fr.commit();
+
+
+        }
 //        if(item.getItemId() == R.id.adopt_frag){
 //            mDrawerLayout.closeDrawers();
 //            scroll.setVisibility(View.INVISIBLE);
@@ -436,12 +446,12 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 //            startActivity(nn);
 //
 //        }
-//
-//
-//
-//
-//
-//
+
+
+
+
+
+
 
 
 
@@ -716,12 +726,12 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 
 
     }
-    String dlat,dlang,dnum;
-    double distanse=100000000000.0000;
-    String findlat,findlang,findnum;
-
-    String database[];
-    String driverid;
+//    String dlat,dlang,dnum;
+//    double distanse=100000000000.0000;
+//    String findlat,findlang,findnum;
+//
+//    String database[];
+//    String driverid;
 //    public void assigntonearestdriver(String userid, String psid, String phone, String name, String msg, String address, final String lat, final String lang,String img){
 //        database=new String[9];
 //        database[0]=userid;
@@ -764,7 +774,7 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 //
 //
 //                }
-////                savedatainserver();
+//                savedatainserver();
 //            }
 //
 //            @Override
@@ -785,12 +795,12 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 //
 //
 //    }
-//
-//    //    database=new String[8];
-////    database[0]=userid;
-////    database[1]=psid;
-////    database[2]=name;
-////    database[3]=msg;
+
+    //    database=new String[8];
+//    database[0]=userid;
+//    database[1]=psid;
+//    database[2]=name;
+//    database[3]=msg;
 //    database[4]=address;
 //    database[5]=lat;
 //    database[6]=lang;
@@ -828,39 +838,39 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
 //
 //            }
 //        });
-////    final DatabaseReference grpxx=FirebaseDatabase.getInstance().getReference().child("CUSTOMERS").child(user.getUid()).child("YOUR COMPLAINTS").child(database[1]);
-////    grpxx.addListenerForSingleValueEvent(new ValueEventListener() {
-////        @Override
-////        public void onDataChange(@NonNull DataSnapshot snapshot) {
-////
-////        }
-////
-////        @Override
-////        public void onCancelled(@NonNull DatabaseError error) {
-////
-////        }
-////    });
-////
+//    final DatabaseReference grpxx=FirebaseDatabase.getInstance().getReference().child("CUSTOMERS").child(user.getUid()).child("YOUR COMPLAINTS").child(database[1]);
+//    grpxx.addListenerForSingleValueEvent(new ValueEventListener() {
+//        @Override
+//        public void onDataChange(@NonNull DataSnapshot snapshot) {
 //
+//        }
 //
+//        @Override
+//        public void onCancelled(@NonNull DatabaseError error) {
 //
+//        }
+//    });
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 //
 //    }
