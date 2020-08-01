@@ -52,6 +52,7 @@ import com.example.cattlecare.MySupportMapFragment;
 import com.example.cattlecare.R;
 import com.example.cattlecare.fundFrag;
 import com.example.cattlecare.locservice;
+import com.example.cattlecare.UserProfile;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
@@ -434,7 +435,7 @@ public class custmapActivity extends AppCompatActivity implements OnMapReadyCall
            progressDialog.show();
 
            FragmentTransaction fr= getSupportFragmentManager().beginTransaction();
-           fr.replace(R.id.frag_cont,new status_frag());
+           fr.replace(R.id.frag_cont,new com.example.finalsih.status_frag());
            fr.commit();
            progressDialog.hide();
            scroll.setVisibility(View.INVISIBLE);
