@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/carddonation"
             android:layout_width="match_parent"
@@ -22,12 +21,10 @@
             android:layout_marginRight="16dp"
             app:cardElevation="4dp"
             app:cardMaxElevation="4dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <!-- Media -->
                 <ImageView
                     android:layout_width="match_parent"
@@ -35,7 +32,6 @@
                     android:contentDescription="content_description_media"
                     android:scaleType="centerCrop"
                     app:srcCompat="@drawable/cattledonation" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -51,11 +47,9 @@
                         android:textAlignment="center"
                         android:textColor="#4e5460"
                         android:textSize="14sp" />
-
                 </LinearLayout>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
-
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btndonate"
             android:layout_width="200dp"
@@ -74,7 +68,6 @@
 
         </com.google.android.material.button.MaterialButton>
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/payView"
         android:layout_width="match_parent"
@@ -82,7 +75,6 @@
         android:background="#ffffff"
         android:orientation="vertical"
         android:visibility="invisible">
-
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardPay"
             android:layout_width="match_parent"
@@ -93,24 +85,19 @@
             android:padding="10dp"
             app:cardElevation="4dp"
             app:cardMaxElevation="4dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="10dp">
-
-
                 <ImageButton
                     android:id="@+id/btnCancel"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="right"
                     android:background="#ffffff"
-                    android:src="@drawable/close_btn" />      // yeh bhi mail mein attached hai
-
+                    android:src="@drawable/close_btn" />     
                 <com.google.android.material.textfield.TextInputLayout
-
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -120,15 +107,11 @@
                     android:gravity="center"
                     android:hint="Name"
                     app:boxStrokeColor="@color/colorPrimaryDark">
-
                     <EditText
                         android:id="@+id/etUserName"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
-
-
                 </com.google.android.material.textfield.TextInputLayout>
-
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
@@ -140,7 +123,6 @@
                     android:gravity="center"
                     android:hint="Phone No."
                     app:boxStrokeColor="@color/colorPrimaryDark">
-
                     <EditText
                         android:id="@+id/etMob"
                         android:layout_width="match_parent"
@@ -148,7 +130,6 @@
                         android:ems="10"
                         android:inputType="number" />
                 </com.google.android.material.textfield.TextInputLayout>
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -157,7 +138,6 @@
                     android:text="Please Enter The Amount!"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
-
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
@@ -169,7 +149,6 @@
                     android:gravity="center"
                     android:hint="Amount"
                     app:boxStrokeColor="@color/colorPrimaryDark">
-
                     <EditText
                         android:id="@+id/etAmount"
                         android:layout_width="match_parent"
