@@ -4,21 +4,12 @@
     <color name="colorPrimaryDark">#022948</color>
     <color name="colorAccent">#022948</color>
     <color name="colorPrimary1">#e6eed6</color>
-
     <color name="colorPrimaryDark1">#022948</color>
     <color name="colorAccent1">#022948</color>
-
-
-
-    <color name="LIGHTBLUE">#0000ff</color>
     <color name="white">#ffffff</color>
-    <color name="green">#00FF00</color>
-    <color name="red">#FF0000</color>
     <color name="black">#000000</color>
-    <color name="voiler">#EE82EE</color>
-    <color name="stone">#ee82b8</color>
     <color name="bgc">#EEDD82</color>
-    <color name="f">#AED6F1 </color>
-    <color name="sex">#c8c8c8</color>
+   
+    
 
 </resources>
