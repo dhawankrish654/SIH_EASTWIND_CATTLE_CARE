@@ -20,6 +20,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.cattlecare.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -45,7 +46,7 @@ import static android.os.Build.ID;
 public class status_frag extends Fragment {
 
     private RecyclerView mRecyclerView;
-    private List<Complaint> comp;
+    private List<com.example.finalsih.Complaint> comp;
     List<String> names;private SwipeRefreshLayout swipe;
 int cnt;
     public status_frag() {
@@ -64,7 +65,7 @@ int cnt;
 
         final View view= inflater.inflate(R.layout.fragment_status_frag, container,false);
         mRecyclerView=(RecyclerView)view.findViewById(R.id.hist_recview);
-        final RecyclerViewAdapter recyclerViewAdapter=new RecyclerViewAdapter(getContext(),comp);
+        final com.example.finalsih.RecyclerViewAdapter recyclerViewAdapter=new com.example.finalsih.RecyclerViewAdapter(getContext(),comp);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         mRecyclerView.setAdapter(recyclerViewAdapter);
         comp.clear();
@@ -191,7 +192,7 @@ int cnt;
                             continue;
 
                         else
-                            comp.add(new Complaint(String.valueOf(Integer.valueOf(pidcc)*393),addrescc,statuscc));
+                            comp.add(new com.example.finalsih.Complaint(String.valueOf(Integer.valueOf(pidcc)*393),addrescc,statuscc));
 
 
 
