@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PendReqDisp">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/relative_layout"
+        android:background="#f2ffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:id="@+id/linear_layout"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/req_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/id"
+
+                android:textColor="#ffffff"
+
+                android:textSize="24sp"
+                android:layout_marginTop="320dp"
+                android:layout_marginBottom="10dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/req_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+
+                android:text="@string/NAME"
+
+                android:textSize="24sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/req_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+
+
+                android:text="@string/phone"
+
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+            </TextView>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/call"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:background="@drawable/rounded_buttons"
+                android:onClick="calllll"
+                android:text="@string/call"
+
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:elevation="4dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <TextView
+                android:id="@+id/req_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:text="@string/address"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/req_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:text="@string/msg"
+
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp">
+
+            </TextView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNavigate"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_buttons"
+                android:onClick="navigate"
+                android:text="@string/navig"
+
+
+                android:textColor="#000000"
+                android:textStyle="bold"
+                app:elevation="4dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnReport"
+                    android:layout_width="169dp"
+                    android:layout_height="40dp"
+
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="report"
+                    android:text="@string/rep"
+
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    app:elevation="4dp">
+
+                </com.google.android.material.button.MaterialButton>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnresl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:onClick="resolverequest"
+                    android:text="@string/reso"
+
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    app:elevation="4dp"
+                    tools:ignore="OnClick">
+
+                </com.google.android.material.button.MaterialButton>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagexxx"
+            android:layout_width="300dp"
+            android:layout_height="360dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="4dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_picture">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
