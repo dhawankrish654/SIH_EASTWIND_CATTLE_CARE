@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.cattlecare">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,22 +19,50 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/materialio1">
-        <activity android:name=".PendReqDisp"></activity>
-        <activity android:name=".DriverActivity" />
-        <activity android:name=".custmapActivity" />
-        <activity android:name=".DriverLogin" />
-        <activity android:name=".UserLoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NewsActivity" />
+        <activity android:name=".Detailed" />
+        <activity android:name=".sliderActivity" />
+        <activity android:name=".PickuppointActivity" />
+        <activity android:name=".PendReqDisp" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".DriverActivity" />
+        <activity android:name=".DriverLogin" />
+        <activity android:name=".custmapActivity" />
+        <activity android:name=".CustomerRegisterComplaintActivity" />
+        <activity android:name=".UserLoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/materialio1"
+            android:configChanges="locale"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".locservice"
+            android:enabled="true"
+            android:exported="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
         <meta-data
             android:name="com.razorpay.ApiKey"
             android:value="rzp_test_xBLNQIdEiFQmlT" />
