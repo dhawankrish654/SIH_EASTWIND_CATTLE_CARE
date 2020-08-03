@@ -33,8 +33,15 @@ Tasks done Day 3-
 3. Adopt Activity
 4. FAQ & Support
 5. Statistics 
+The complete code is present in the finalday folder and the day-wise code is present in the cattle_Care folder. 
+The other usage videos and posters are in the advertising folder.
 
 Video demonstration with posters is available at :- https://drive.google.com/drive/folders/1TvMTVGf1_2wl7JD5F1ZWsZlW8lO1ygga
+
+
+
+# CATTLE-CARE     PUTTING KIND IN MANKIND!
+
 
 
 
