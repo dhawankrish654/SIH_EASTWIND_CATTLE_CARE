@@ -38,6 +38,5 @@ Video demonstration with posters is available at :- https://drive.google.com/dri
 
 
 
-![](https://drive.google.com/file/d/1Zx4uTZ5e9jDtBjc4dcA4x8S6RIOo8Ckq/view?usp=sharing)
 
 
