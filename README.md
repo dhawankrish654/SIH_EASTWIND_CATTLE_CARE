@@ -23,4 +23,14 @@ Tasks done Day 1-
 Tasks done Day 2-
 1. Driver Login
 2. Drivers' Requests Activity
-3. Multi-linguistic feature
+3. Nearby Pickup Points
+4. Unauthentic Request Monitoring
+5. Multi-linguistic feature
+
+Tasks done Day 3-
+1. News/Blogs Features
+2. Add Pickup Points
+3. Adopt Activity
+4. FAQ & Support
+5. Statistics 
+
