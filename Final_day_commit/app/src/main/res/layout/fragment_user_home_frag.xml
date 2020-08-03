@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: Update blank fragment layout -->
+<!--<RelativeLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginBottom="281dp"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent">-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/mapx"-->
+<!--        android:name="com.example.finalsih.MySupportMapFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="450dp" />-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/ic_location_on_black_24dp" />-->
+<!--</RelativeLayout>-->
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user_home_frag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:hintTextColor="#40e0d0"
+            android:hint="Name"
+
+            app:boxStrokeColor="#40e0d0">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/name"
+                android:layout_height="wrap_content" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:hintTextColor="#40e0d0"
+            android:hint="Address"
+
+            app:boxStrokeColor="#40e0d0">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/address"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--        <fragment-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="350dp"-->
+<!--            android:id="@+id/mapx"-->
+<!--            android:name="com.example.finalsih.MySupportMapFragment"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp">-->
+
+<!--        </fragment>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id="@+id/reltlayout"
+            >
+
+            <fragment
+                android:id="@+id/mapx"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="450dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_location_on_black_24dp" />
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:hintTextColor="#40e0d0"
+                android:hint="Phone No."
+
+                app:boxStrokeColor="#40e0d0">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phonenum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:layout_width="125dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/rounded_buttons"-->
+<!--                android:text="Send OTP"-->
+<!--                android:textColor="#4e4560"-->
+<!--                app:elevation="4dp">-->
+
+<!--            </com.google.android.material.button.MaterialButton>-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="30dp"></androidx.appcompat.widget.AppCompatImageView>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_buttons"
+                android:text="Click Image"
+                android:textColor="#4e4560"
+                app:elevation="4dp">
+
+            </com.google.android.material.button.MaterialButton>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_buttons"
+            android:text="Lodge Complaint"
+            android:textColor="#4e4560"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            app:elevation="4dp">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+

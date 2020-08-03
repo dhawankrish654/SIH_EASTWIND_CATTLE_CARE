@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/logoutBtn"
+        android:icon="@drawable/logout"
+        app:showAsAction="always"
+        android:title="LogOut"
+        android:onClick="logout"/>
+<!--    <item android:id="@+id/log"-->
+<!--        android:icon="@drawable/ic_baseline_translate_24"-->
+<!--        app:showAsAction="always"-->
+<!--        android:title="LogOut"-->
+<!--        android:onClick="langg">-->
+
+<!--    </item>-->
+<!--        android:onClick="langg"-->
+        />
+
+</menu>

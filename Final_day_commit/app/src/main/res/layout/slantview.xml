@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#022948"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="#ffffff"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:paddingTop="0dp"
+        android:layout_width="255dp"
+        android:layout_height="224dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/qwerty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:rotation="75"
+        android:layout_marginTop="100dp"
+        android:background="#022948">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/user_btn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="userlogin"
+            android:text="@string/USER"
+            android:textColor="#000000"
+            app:elevation="4dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+
+
+            android:id="@+id/dr_bxn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_buttons"
+            android:onClick="dl"
+            android:text="@string/cattlecatcher"
+            android:textColor="#000000"
+
+            android:textFontWeight="500"
+            android:textSize="15dp"
+            app:elevation="4dp">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+</FrameLayout>
+

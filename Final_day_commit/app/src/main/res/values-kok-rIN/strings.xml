@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cattle Care</string>
+    <string name="donation" translatable="true">टःआण्क़्य़ॉऊ फ़ॉर ऍईङ ा आर्ट ॉफ़ ॉऊरॠणीटीआटीऍ! तःऍ श्ट्राय़,आआण्डॉणॅड,ईण्ज़्रॅश,ऑरःआणॅड ाण्ड ्शीच्क़ ्चाट्ट्ळॅ डॉ णॉट ऍळॉङ ्टॉ टःऍ रॉआड्श. तःऍ्य़ डॅशॅरऍर ्टॉ ऍ णूर्टूरॅड ीण ा शाफ़ॅ ऍणईरॉणंऍण्ट. ईटः ऑऊर ःऍळ, ऍ ज़ूश्ट ्शाऍड ्शॉंऍ ऑफ़ ्टःऍं. यॉऊ चाणङीफ़्ट ्टःऍं टःऍ ळीफ़ॅ टःऍय़ ्डॅशॅरऍर! अळ्ळ ्टःऍय़ ्णॅऍड ीश ्टॉ ऍ ऍळ्ळ ्ळॉऍड ाण्ड ्चारॅड ्फ़ॉर. सॅण्ड ्य़ॉऊर ्टॉक़ॅण ॉफ़ ्ळॉऍ!</string>
+    <string name="q" translatable="true">ख़ूऍश</string>
+    <string name="a" translatable="true">आण्श</string>
+    <string name="q1" translatable="true">ःऑ टॉ ळॉड्ग़ॅ आरॅख़ूऍश्ट</string>
+    <string name="q2" translatable="true">ःऑ टॉ ळॉड्ग़ॅ आरॅख़ूऍश्ट</string>
+    <string name="q3" translatable="true">ःऑ टॉ ळॉड्ग़ॅ आरॅख़ूऍश्ट</string>
+    <string name="a1" translatable="true">ःऑ टॉ ळॉड्ग़ॅ आरॅख़ूऍश्ट</string>
+    <string name="a2" translatable="true">ःऑ टॉ ळॉड्ग़ॅ आरॅख़ूऍश्ट</string>
+    <string name="a3" translatable="true">ःऑ टॉ ळॉड्ग़ॅ आरॅख़ूऍश्ट</string>
+    <string name="UNDERTAKING">आ ग़ॉऍर्णंऍण्ट ॉफ़ ्ग़ॉआ ऊण्डॅर्टाक़ीङ</string>
+    <string name="USER" translatable="true">उसेर</string>
+    <string name="cattlecatcher" translatable="true">चत्त्ले अत्चेर</string>
+    <string name="userlogin">उसेर लोगिन</string>
+    <string name="NAME" translatable="true">णांऍ</string>
+    <string name="phone" translatable="true">फोने नुंबेर</string>
+    <string name="sendotp" translatable="true">सेंद ोत्प</string>
+    <string name="lodgecomplaint" translatable="true">लोद्गे ओंप्लैंत</string>
+    <string name="clickimage" translatable="true">लिक िमगे</string>
+    <string name="noofcattle">नुंबेर ोफ अत्त्ले</string>
+    <string name="userhome" translatable="true">उसेर ्होमे</string>
+    <string name="catcher">अत्त्ले अत्चेर</string>
+    <string name="password">पस्स्वोर्द</string>
+    <string name="login">लोगिन</string>
+    <string name="id">इद:</string>
+    <string name="address">अद्द्रेस्स:</string>
+    <string name="status">स्ततुस</string>
+    <string name="msg">मेस्सगे</string>
+    <string name="navig">नविगते तो लोअतिओन</string>
+    <string name="rep">रेपोर्त ्रेक़ुएस्त</string>
+    <string name="reso">रेसोल्वे रेक़ुएस्त</string>
+    <string name="adopt">फिंद ्यौ अनिमल ओंपनिओन ्हेरेर! ःएल्प ौर िनितिअतिवे तो गिवे थे स्त्रय निमल्स ्थे लिफे थेय ्देसेर्वे ब्य अदोप्तिंग ओने तोदय.  ओंतत ्थे ङॉ\'स ्फोर ्फुर्थेर िन्फोर्मतिओन!</string>
+    <string name="openNavDrawer">नविगतिओनंद्रवेर ोपेन</string>
+    <string name="closeNavDrawer">नविगतिओनंद्रवेर लोसे</string>
+    <string name="hello_blank_fragment">हेल्लो ब्लंक ्फ्रग्मेंत</string>
+    <string name="nearestpickup">नविगते तो नेअरेस्त ्पिकुप ्पोइंत</string>
+    <string name="call">अल्ल उस्तोमेर</string>
+    <string name="prof">उसेर ्प्रोफिले</string>
+    <string name="complaint">ओंप्लैंत ्स्ततुस</string>
+    <string name="pickup">पिकुप ्पोइंत्स</string>
+    <string name="sewa">पशु सेव फुन्द</string>
+    <string name="adoptANIM">आडॉट ाणींआळ्श</string>
+    <string name="NEWS">नेव्स</string>
+    <string name="info">इन्फो</string>
+    <string name="stats">स्तत्स</string>
+    <string name="help">हेल्प</string>
+    <string name="feedback">फीद्बक</string>
+    <string name="faq">फक़ ंद ्सुप्पोर्त</string>
+    <string name="action">अतिओंस</string>
+    <string name="addpickup">अद्द  पिकुप ्पोइंत</string>
+    <string name="regis">ओंप्लैंत ्रेगिस्तेरेद!</string>
+    <string name="compidis">यौर ओंप्लैंत िद िस:</string>
+    <string name="ok">ओक</string>
+    <string name="donaye">दोनते</string>
+    <string name="FUND">टॉटाळ ्फ़ूण्ड चॉळ्ळॅच्टॅड \\ण र्श. ५०००</string>
+    <string name="served">टॉटाळ ाणींआळ्श ्शॅरऍड : २००</string>
+    <string name="reach">रेअच ुस ौत त</string>
+    <string name="contact">ओंतत ्नो.</string>
+    <string name="don">म्य ्दोनइओंस</string>
+    <string name="rew">म्य ्रेवर्द ्पोइंत्स</string>
+    <string name="init">यौ अरे पर्त ोफ ौर िनितिअतिवे नोव</string>
+    <string name="uniq">उनिक़ुए इद</string>
+    <string name="lat">लत्तितुदे</string>
+    <string name="lang">लोंगितुदे</string>
+    <string name="amount">अमौंतप्लेअसेींतेर ्यौर मौंतथेरे</string>
+    <string name="pay">आय़</string>
+    <string name="q22">होव ्तो चेक ्स्ततुस?</string>
+    <string name="q33">होव ्तो इउसे रेवर्द्स?</string>
+</resources>

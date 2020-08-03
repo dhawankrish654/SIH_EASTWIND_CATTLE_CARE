@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdoptFrag">
+    <include layout="@layout/slantviewgen"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="16dp"
+                app:cardElevation="4dp"
+
+                app:cardMaxElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="251dp"
+                        android:contentDescription="content_description_media"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/adopt" />        // isko baad mein change karenge
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/adopt"
+
+
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardElevation="4dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:paddingLeft="2dp"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Age"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="NGO 1                                                                             "
+                            android:textAlignment="textStart"
+
+                            android:textColor="#000000"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:paddingLeft="2dp"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Address"
+                            android:textSize="17sp" />
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="Next to goa beach, Panji , Goa                                                                                               "
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="17sp"
+
+                            tools:ignore="RtlCompat" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_call_24"/>       //  yeh vector asset hai...add karlena
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:textColor="#000000"
+
+                            android:layout_marginLeft="30dp"
+                            android:text="9999999999"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_email_24"/>      //yeh vector asset hai add karlena
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:textColor="#000000"
+
+                            android:text="cattlecaree@gmail.com"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardElevation="4dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:paddingLeft="2dp"
+                            android:gravity="center"
+                            android:text="Agency"
+                            android:textColor="#000000"
+
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="NGO 2                                                                                             "
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:textColor="#000000"
+
+                            android:paddingLeft="2dp"
+                            android:gravity="center"
+                            android:text="Address"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="Next to goa beach, Panji , Goa                                                                                               "
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_call_24"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="9999999999"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_email_24"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:textColor="#000000"
+
+                            android:text="cattlecare@gmail.com"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardElevation="4dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"
+
+                android:layout_marginRight="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:paddingLeft="2dp"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Agency"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+
+                            android:paddingLeft="10dp"
+                            android:text="NGO 3                                                                                                         "
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="6">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:paddingLeft="2dp"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Address"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="Next to goa beach, Panji , Goa                                                                                               "
+
+                            android:textAlignment="textStart"
+                            android:textColor="#000000"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_call_24"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:layout_marginLeft="30dp"
+                            android:textColor="#000000"
+
+                            android:text="9999999999"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_email_24"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:paddingLeft="10dp"
+                            android:text="GoaGovernment101@gmail.com"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>

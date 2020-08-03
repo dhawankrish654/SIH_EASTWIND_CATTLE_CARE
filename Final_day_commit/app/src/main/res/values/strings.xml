@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Cattle Care</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="adopt">Find your animal companion here!\n Help our initiative to give the stray animals the life they deserve by adopting one today. \n \n
+Contact these NGOs for further information! </string>
+
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="donation">Thank you for being a part of our initiative! \n The stray, abandoned, injured, orphaned, and sick cattle do not belong to the roads. They deserve to be nurtured in a safe environment. \n With your help, we just saved some of them.\n \n You can gift them the life they deserve! All they need is to be well loved and cared for. Send your token of love!</string>
+    <string name="q">Ques.</string>
+    <string name="a">Ans.</string>
+    <string name="q1">How to Lodge a Request?</string>
+    <string name="q2">How to Lodge a Request?</string>
+    <string name="q3">How to Lodge a Request?</string>
+    <string name="a1">How to Lodge a Request?zsjgkwufzwiuefhilwuefhskdjhfzkjshgzkdjfhgzuryiluryltiuzrylztuidyrlzuidyrtliduyrtliudrytiudrtyirlytieurytsiuertyseiutysiuetyiselyt</string>
+    <string name="a2">How to Lodge a Request?zsjgkwufzwiuefhilwuefhskdjhfzkjshgzkdjfhgzuryiluryltiuzrylztuidyrlzuidyrtliduyrtliudrytiudrtyirlytieurytsiuertyseiutysiuetyiselyt</string>
+    <string name="a3">How to Lodge a Request?zsjgkwufzwiuefhilwuefhskdjhfzkjshgzkdjfhgzuryiluryltiuzrylztuidyrlzuidyrtliduyrtliudrytiudrtyirlytieurytsiuertyseiutysiuetyiselyt</string>
+    <string name="access_token" translatable="false">pk.eyJ1IjoiYW5zaHNoYW5rZXIiLCJhIjoiY2tjcndidjNoMWl1dDJ5bHVxZXpicG9vaiJ9.9mrj_ppUai5yMCKK86NQBA</string>
+    <string name="channel_description" translatable="false">yay</string>
+    <string name="UNDERTAKING">A GOVERNMENT OF GODA UNDERTAKING</string>
+    <string name="USER">user</string>
+    <string name="cattlecatcher">cattle catcher</string>
+    <string name="userlogin">USER LOGIN</string>
+    <string name="NAME">NAME</string>
+    <string name="phone">PHONE NUMBER</string>
+    <string name="sendotp">SEND OTP</string>
+    <string name="lodgecomplaint">LODGE COMPLAINT</string>
+    <string name="clickimage">CLICK IMAGE</string>
+    <string name="noofcattle">NUMBER OF CATTLE</string>
+    <string name="userhome">USER HOME</string>
+    <string name="catcher">CATTLE CATCHER</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="id">ID-:</string>
+    <string name="address">Address:-</string>
+    <string name="status">STATUS:-</string>
+    <string name="msg">MESSAGE</string>
+    <string name="navig">NAVIGATE TO LOCATION</string>
+    <string name="rep">REPORT REQUEST</string>
+    <string name="reso">RESOLVE REQUEST</string>
+    <string name="nearestpickup">NAVIGATE TO NEAREST  PICKUP</string>
+    <string name="call">CALL CUSTOMER</string>
+    <string name="prof">USER PROFILE</string>
+    <string name="complaint">COMPLAINT STATUS</string>
+    <string name="pickup">PICKUP POINTS</string>
+    <string name="sewa">PASHU SEWA FUND</string>
+    <string name="adoptANIM">ADOPT ANIMALS</string>
+    <string name="NEWS">NEWS</string>
+    <string name="info">INFO</string>
+    <string name="stats">STATS</string>
+    <string name="help">HELP</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="faq">FAQ AND SUPPORT</string>
+    <string name="action">ACTIONS</string>
+    <string name="addpickup">ADD A PICKUP POINT</string>
+    <string name="regis">COMPLAINT REGISTERED</string>
+    <string name="compidis">YOUR COMPLAINT ID IS:-</string>
+    <string name="ok">OK</string>
+    <string name="donaye">DONATE</string>
+    <string name="FUND">TOTAL FUND COLLECTED IS  \n RS.5000</string>
+    <string name="served">TOTAL ANIMALS SERVED :-\n 200</string>
+    <string name="reach">REACH US OUT AT:-</string>
+    <string name="contact">CONTACT NO.:-</string>
+    <string name="don">MY DONATIONS</string>
+    <string name="rew">MY REWARD POINTS:-</string>
+    <string name="init">You are  part of our initiative now!</string>
+    <string name="uniq">UNIQUE ID</string>
+    <string name="lat">LATITUDE</string>
+    <string name="lang">LONGITUDE</string>
+    <string name="amount">PLEASE ENTER YOUR AMOUNT HERE</string>
+    <string name="pay">PAY</string>
+    <string name="q22">How to check status?</string>
+    <string name="q33">How to use rewards?</string>
+
+
+</resources>
