@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SupportFrag">
+    <include layout="@layout/slantviewgen"/>
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/faq"
+
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardView1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="58dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:paddingLeft="5dp"
+                            android:gravity="center"
+                            android:text="@string/q"
+
+                            android:textColor="@color/black"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+
+                            android:text="@string/q1"
+                            android:textSize="17sp" />
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/hidden_btn1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />    //vector asset hai...add karlena
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hidden_view1"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/a"
+                            android:textAlignment="center"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/a1"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardView2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardElevation="4dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="58dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:textColor="@color/black"
+                            android:paddingLeft="5dp"
+                            android:gravity="center"
+                            android:text="@string/q"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:text="@string/q22"
+
+
+                            android:textSize="17sp" />
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/hidden_btn2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hidden_view2"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/a"
+                            android:textAlignment="center"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/a1"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardView3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                android:layout_marginTop="20dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="58dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="8">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:textColor="@color/black"
+                            android:paddingLeft="5dp"
+                            android:gravity="center"
+                            android:text="@string/q"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:text="@string/q33"
+
+                            android:textSize="17sp" />
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/hidden_btn3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/hidden_view3"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="7">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/a"
+                            android:textAlignment="center"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/a1"
+                            android:textSize="17sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reach"
+
+                android:textSize="30sp"
+                android:textColor="@color/white"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardMaxElevation="4dp"
+                android:layout_marginLeft="58dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_baseline_call_24"/>
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="center"
+
+
+                            android:textColor="@color/black"
+                            android:paddingLeft="10dp"
+                            android:text="9999999999"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="34dp"
+                            android:layout_height="34dp"
+
+                            android:id="@+id/mailll"
+                            android:src="@drawable/ic_baseline_email_24" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            android:onClick="mail"
+                            android:id="@+id/llll"
+                            android:textColor="@color/black"
+                            android:paddingLeft="10dp"
+                            android:text="something@gmail.com"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
