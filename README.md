@@ -1,5 +1,5 @@
 # DR113_EASTWIND
-[]!https://github.com/dhawankrish654/SIH_EASTWIND_CATTLE_CARE/blob/master/sssss.jpg
+![](https://github.com/dhawankrish654/SIH_EASTWIND_CATTLE_CARE/blob/master/sssss.jpg)
 This is a Mobile application which is based on Android platform to control the menace caused by the stray cattle on roads and provide better Governance by more involvement of public.
 Furthermore, it acts as a proper channel for flow of information amongst the users, drivers and the authorities such as municipalities, animal welfare organisations, NGOs etc. 
 
