@@ -1,5 +1,7 @@
-# DR113_EASTWIND
+# DR113_TEAM_EASTWIND
 ![](https://github.com/dhawankrish654/SIH_EASTWIND_CATTLE_CARE/blob/master/sssss.jpg)
+
+
 This is a Mobile application which is based on Android platform to control the menace caused by the stray cattle on roads and provide better Governance by more involvement of public.
 Furthermore, it acts as a proper channel for flow of information amongst the users, drivers and the authorities such as municipalities, animal welfare organisations, NGOs etc. 
 
@@ -13,7 +15,7 @@ After the driver reaches the location and picks up the cattle, he marks the comp
 
 The users can check all their lodged complaints, donate for the welfare of the cattle, adopt a rescued animal and check the news and blogs related to cattle!
 
-Tasks done Day 1-
+# Tasks done Day 1-
 1. Main Activity
 2. User's Login Activity
 3. Customer Map Activity
@@ -21,14 +23,14 @@ Tasks done Day 1-
 5. Complaint History 
 6. Pashu-Seva Fund Activity
 
-Tasks done Day 2-
+# Tasks done Day 2-
 1. Driver Login
 2. Drivers' Requests Activity
 3. Nearby Pickup Points
 4. Unauthentic Request Monitoring
 5. Multi-linguistic feature
 
-Tasks done Day 3-
+# Tasks done Day 3-
 1. News/Blogs Features
 2. Add Pickup Points
 3. Adopt Activity
